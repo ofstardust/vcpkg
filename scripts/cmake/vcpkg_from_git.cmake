@@ -62,7 +62,7 @@ function(vcpkg_from_git)
     if(DEFINED arg_TAG)
         message(WARNING "The TAG argument to vcpkg_from_git has been deprecated and has no effect.")
     endif()
-    
+
 
     if(NOT DEFINED arg_OUT_SOURCE_PATH)
         message(FATAL_ERROR "OUT_SOURCE_PATH must be specified")
