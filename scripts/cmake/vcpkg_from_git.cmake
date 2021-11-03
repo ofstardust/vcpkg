@@ -122,6 +122,7 @@ function(vcpkg_from_git)
         endif()
 
         file(MAKE_DIRECTORY "${DOWNLOADS}/temp")
+        # message(FATAL_ERROR "running git archive with ${rev_parse_ref} to ${temp_archive}")
         vcpkg_execute_required_process(
             ALLOW_IN_DOWNLOAD_MODE
             COMMAND "${GIT}" -c core.autocrlf=false archive "${rev_parse_ref}" -o "${temp_archive}"
