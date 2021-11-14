@@ -2,7 +2,7 @@ vcpkg_from_git(
     OUT_SOURCE_PATH SOURCE_PATH
     URL git@github.com:ofstardust/bisonpp.git
     HEAD_REF master
-    REF 08a5113f1d4f6aa27747f459102610ef8d62d7e4
+    REF c70d5eed2faa817951e38ac2bdb12bf80c021f34
 )
 
 vcpkg_configure_cmake(
