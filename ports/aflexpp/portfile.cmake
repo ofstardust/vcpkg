@@ -2,7 +2,7 @@ vcpkg_from_git(
     OUT_SOURCE_PATH SOURCE_PATH
     URL git@github.com:ofstardust/flexpp.git
     HEAD_REF master
-    REF c447c5a62cf5134b0594e953fc7e9fc4278f987d
+    REF 790e6d06508dbf39001407701b0303d8916b76e6
 )
 
 vcpkg_configure_cmake(
